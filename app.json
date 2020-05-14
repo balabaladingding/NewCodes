@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index",
+    "pages/details",
+    "pages/my"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#328EEB",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "电影评分小图鉴",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#328EEB",
+    "list": [
+      {
+        "pagePath": "pages/index",
+        "text": "首页",
+        "iconPath": "images/timg.jpg",
+        "selectedIconPath": "images/timg.jpg"
+      },
+      {
+        "pagePath": "pages/details",
+        "text": "猜你喜欢",
+        "iconPath": "images/timg.jpg",
+        "selectedIconPath": "images/timg.jpg"
+      },
+      {
+        "pagePath": "pages/my",
+        "text": "我的",
+        "iconPath": "images/timg.jpg",
+        "selectedIconPath": "images/timg.jpg"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap9.json"
+}
