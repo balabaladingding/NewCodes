@@ -1,5 +1,5 @@
 <!-- 首页 第一区域 图片 -->
 <view class='container'>
-  <image catchtap='change' wx:if="{{click}}" src="/images/shanheguren.jpg" mode="widthFix" d></image>
+  <image catchtap='change' wx:if="{{click}}" src="/images/shanheguren.jpg" mode="widthFix" ></image>
   <image wx:else src="/images/xiebuyazheng.jpg"mode="widthFix"></image>
 </view>

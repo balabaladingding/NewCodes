@@ -1,5 +1,4 @@
 // pages/index.js
-const app=getApp()
 Page({
 
   /**
@@ -7,7 +6,13 @@ Page({
    */
   data: {
     click:true,
+    // listimages:[
+    //   '/images/huangjinshidai.jpg',
+    //   '/images/longmao.jpg',
+    //   '/images/shaoniandeni.jpg'
+    // ]
   },
+  
 
   change: function () {
     var click = this.data.click;
