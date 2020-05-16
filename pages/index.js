@@ -9,15 +9,13 @@ Page({
     imgList:[
       '/images/huangjinshidai.jpg',
       '/images/longmao.jpg',
-      '/images/shaoniandeni.jpg',
       '/images/dayuhaitang.jpg',
       '/images/shanheguren.jpg',
-      '/images/wobushiyaoshen.jpg',
       '/images/wozaigugongxiuwenwu.jpg',
       '/images/ying.jpg'
     ],
     autoplay: false,
-    indicatordots: false,
+    indicatordots: true,
     duration: 500
   },
   

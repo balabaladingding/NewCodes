@@ -11,7 +11,7 @@
       <swiper-item >
         <view class="vol-card">
           <image catchtap='change' wx:if="{{click}}"class="vol-picture" src="{{item}}" mode="aspectFill"mode='widthFix'></image>
-          <image wx:else src="{{item}}"mode="widthFix"></image>
+          <image wx:else src="{{item}}"mode="widthFix"class="vol-picture"></image>
         </view>
       </swiper-item>
     </block>
