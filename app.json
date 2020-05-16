@@ -2,7 +2,8 @@
   "pages": [
     "pages/index",
     "pages/details",
-    "pages/my"
+    "pages/my",
+    "pages/gain"
   ],
   "window": {
     "navigationBarBackgroundColor": "#328EEB",
@@ -19,19 +20,19 @@
       {
         "pagePath": "pages/index",
         "text": "首页",
-        "iconPath": "images/timg.jpg",
+        "iconPath": "images/index1.png",
         "selectedIconPath": "images/timg.jpg"
       },
       {
         "pagePath": "pages/details",
         "text": "猜你喜欢",
-        "iconPath": "images/timg.jpg",
+        "iconPath": "images/details1.png",
         "selectedIconPath": "images/timg.jpg"
       },
       {
         "pagePath": "pages/my",
         "text": "我的",
-        "iconPath": "images/timg.jpg",
+        "iconPath": "images/my1.png",
         "selectedIconPath": "images/timg.jpg"
       }
     ]

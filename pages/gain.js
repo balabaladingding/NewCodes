@@ -1,24 +1,11 @@
-// pages/index.js
-const app=getApp()
+// pages/gain.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    click:true,
-  },
 
-  change: function () {
-    var click = this.data.click;
-    this.setData({
-      click: false
-    })
-    setTimeout(function () {
-      wx.redirectTo({
-        url: '/pages/gain',
-      })
-    }, 50)
   },
 
   /**
