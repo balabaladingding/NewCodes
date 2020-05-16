@@ -6,13 +6,31 @@ Page({
    */
   data: {
     click:true,
-    // listimages:[
-    //   '/images/huangjinshidai.jpg',
-    //   '/images/longmao.jpg',
-    //   '/images/shaoniandeni.jpg'
-    // ]
+    imgList:[
+      '/images/huangjinshidai.jpg',
+      '/images/longmao.jpg',
+      '/images/shaoniandeni.jpg'
+    ],
+    autoplay: false,
+    indicatordots: false,
+    duration: 500
   },
   
+  onLoad: function () {
+    var that = this;
+    var videoUrl = "请求的接口地址";
+    Api.http(videoUrl, (res) => {
+      that.setData({
+        hidden: true,
+        imgList: res,
+      })
+    })
+  },
+  onSlideChange: function (event) { 
+    var postId = event.detail.current; 
+    console.log(postId);
+  },
+
 
   change: function () {
     var click = this.data.click;

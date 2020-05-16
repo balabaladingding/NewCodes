@@ -1,9 +1,18 @@
-.container{
-  position: fixed;
-  left: 75rpx;
+.container {
+  height: 100vh;
+  padding-top: 0px;
+}
+ 
+.vol-card {
+  padding: 55rpx;
   height: 100%;
-  width: 80%;
-  display:flex;
-  align-items:center;
-  justify-content: center;
+  background: #fff;
+}
+
+.vol-swiper {
+  height: 100%;
+}
+ 
+.vol-picture {
+  width: 100%;
 }
