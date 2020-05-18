@@ -3,7 +3,8 @@
     "pages/index",
     "pages/details",
     "pages/my",
-    "pages/gain"
+    "pages/gain",
+    "pages/movie"
   ],
   "window": {
     "navigationBarBackgroundColor": "#328EEB",
