@@ -1,4 +1,3 @@
-//http://api.douban.com/v2/movie/subject/id?apikey=0df993c66c0c636e29ecbb5344252a4a
 //https://douban.uieee.com/v2/movie/subject/:id
 //https://douban.uieee.com/v2/movie/subject/1292720
 ///v2/movie/subject/:id

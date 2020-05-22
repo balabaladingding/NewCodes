@@ -5,7 +5,7 @@ Page({
    */
   data: {
     title:"加载中...",
-    movies:[]
+    movies:[],
   },
 
   onLoad:function(){
@@ -23,6 +23,7 @@ Page({
       "Content-Type": "application/text"
     },
     success:function(res){
+      console.log(res),
       wx.hideToast({
         complete: (res) => {},
       })
