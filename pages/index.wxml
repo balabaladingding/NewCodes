@@ -10,8 +10,9 @@
     <block wx:for="{{imgList}}" wx:key="index">
       <swiper-item >
         <view class="vol-card">
-          <image catchtap='change' wx:if="{{click}}"class="vol-picture" src="{{item}}" mode="aspectFill"mode='widthFix'></image>
-          <image wx:else src="{{item}}"mode="widthFix"class="vol-picture"></image>
+        <!-- bindtap="dispath" data-text="{{item}}" -->
+          <image catchtap='change' wx:for-index="id" data-id='{{index}}' wx:if="{{click}}" class="vol-picture" src="{{item}}" mode="aspectFill" mode='widthFix'></image>
+          <!-- <image wx:else src="/images/shaoniandeni.jpg" mode="widthFix" class="vol-picture"></image> -->
         </view>
       </swiper-item>
     </block>

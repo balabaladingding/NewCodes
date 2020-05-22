@@ -20,32 +20,75 @@ Page({
   },
   
   onLoad: function () {
-    var that = this;
-    var videoUrl = "请求的接口地址";
-    Api.http(videoUrl, (res) => {
-      that.setData({
-        hidden: true,
-        imgList: res,
-      })
-    })
+    // var that = this;
+    // var videoUrl = "请求的接口地址";
+    // Api.http(videoUrl, (res) => {
+    //   that.setData({
+    //     hidden: true,
+    //     imgList: res,
+    //   })
+    // })
   },
   onSlideChange: function (event) { 
-    var postId = event.detail.current; 
-    console.log(postId);
+     var postId = event.detail.current; 
+     console.log(postId);
   },
-
-
-  change: function () {
-    var click = this.data.click;
-    this.setData({
-      click: false
-    })
-    setTimeout(function () {
-      wx.redirectTo({
-        url: '/pages/gain',
-      })
-    }, 50)
-  },
+   change: function (e) {
+    // var click = this.data.click;
+    var id = e.currentTarget.dataset.id
+    // this.setData({
+    //   click: false
+    // })
+    // setTimeout(function () {
+      // wx.redirectTo({
+      //   url: '/pages/gain',
+      // })
+      if (id==0){ 
+        wx.navigateTo({
+         url: '/pages/six/0',
+        })
+      }
+      if (id==1) {
+        wx.navigateTo({
+          url: '/pages/six/1',
+        })
+      }
+      if (id==2) {
+        wx.navigateTo({
+          url: '/pages/six/2',
+        })
+      }if (id==3) {
+        wx.navigateTo({
+          url: '/pages/six/3',
+        })
+      }if (id==4) {
+        wx.navigateTo({
+          url: '/pages/six/4',
+        })
+      }
+      if (id==5) {
+        wx.navigateTo({
+          url: '/pages/six/5',
+        })
+      }
+    },
+   
+  // dispath:function(e){
+  //   var click = this.data.click;
+  //   this.setData({
+  //     click: false
+  //   })
+  //   // if ("/images/huangjinshidai.jpg"==e.currentTarget.dataset.text){ 
+  //     wx.navigateTo({
+  //      url: '/pages/gain',
+  //     })
+  //   // }
+  //   if ("'/images/longmao.jpg'" == e.currentTarget.dataset.text) {
+  //     wx.navigateTo({
+  //       url: '/pages/my',
+  //     })
+  //   }
+  // },
 
   /**
    * 生命周期函数--监听页面加载

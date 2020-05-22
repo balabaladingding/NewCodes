@@ -1,4 +1,4 @@
-// pages/gain.js
+// pages/six/1.js
 Page({
 
   /**
