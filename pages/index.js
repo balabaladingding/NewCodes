@@ -1,11 +1,9 @@
-// pages/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    click:true,
     imgList:[
       '/images/huangjinshidai.jpg',
       '/images/longmao.jpg',
@@ -20,29 +18,13 @@ Page({
   },
   
   onLoad: function () {
-    // var that = this;
-    // var videoUrl = "请求的接口地址";
-    // Api.http(videoUrl, (res) => {
-    //   that.setData({
-    //     hidden: true,
-    //     imgList: res,
-    //   })
-    // })
   },
   onSlideChange: function (event) { 
      var postId = event.detail.current; 
      console.log(postId);
   },
    change: function (e) {
-    // var click = this.data.click;
     var id = e.currentTarget.dataset.id
-    // this.setData({
-    //   click: false
-    // })
-    // setTimeout(function () {
-      // wx.redirectTo({
-      //   url: '/pages/gain',
-      // })
       if (id==0){ 
         wx.navigateTo({
          url: '/pages/six/0',
@@ -72,23 +54,6 @@ Page({
         })
       }
     },
-   
-  // dispath:function(e){
-  //   var click = this.data.click;
-  //   this.setData({
-  //     click: false
-  //   })
-  //   // if ("/images/huangjinshidai.jpg"==e.currentTarget.dataset.text){ 
-  //     wx.navigateTo({
-  //      url: '/pages/gain',
-  //     })
-  //   // }
-  //   if ("'/images/longmao.jpg'" == e.currentTarget.dataset.text) {
-  //     wx.navigateTo({
-  //       url: '/pages/my',
-  //     })
-  //   }
-  // },
 
   /**
    * 生命周期函数--监听页面加载

@@ -1,1 +1,37 @@
-/* pages/six/0.wxss */
+.all{
+  height: 2300rpx;
+}
+.meta{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1000rpx;
+  padding: 50rpx 40rpx;
+}
+.poster{
+  width: 80%;
+  height: 80%;
+  margin: 20rpx;
+}
+.summary{
+  width: 80%;
+  margin: 30rpx auto;
+}
+.lable{
+  display: block;
+}
+.content{
+  color: #666;
+  font-size: 22rpx;
+  padding: 10rpx;
+}
+.title{
+  font-size: 42rpx;
+  color: #444;
+}
+.info{
+  font-size: 18rpx;
+  color: #888;
+  margin-top: 20rpx;
+  width: 80%;
+}

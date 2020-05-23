@@ -1,6 +1,5 @@
 //https://douban.uieee.com/v2/movie/subject/:id
 //https://douban.uieee.com/v2/movie/subject/1292720
-///v2/movie/subject/:id
 Page({
 
   /**

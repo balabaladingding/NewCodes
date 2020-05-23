@@ -1,4 +1,3 @@
-<!-- 首页 第一区域 图片 -->
 <swiper 
   class="container" 
   indicator-dots="{{indicatordots}}" 
@@ -10,9 +9,7 @@
     <block wx:for="{{imgList}}" wx:key="index">
       <swiper-item >
         <view class="vol-card">
-        <!-- bindtap="dispath" data-text="{{item}}" -->
-          <image catchtap='change' wx:for-index="id" data-id='{{index}}' wx:if="{{click}}" class="vol-picture" src="{{item}}" mode="aspectFill" mode='widthFix'></image>
-          <!-- <image wx:else src="/images/shaoniandeni.jpg" mode="widthFix" class="vol-picture"></image> -->
+          <image catchtap='change' wx:for-index="id" data-id='{{index}}' class="vol-picture" src="{{item}}" mode="aspectFill" mode='widthFix'></image>
         </view>
       </swiper-item>
     </block>

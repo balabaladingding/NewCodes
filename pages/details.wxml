@@ -9,7 +9,7 @@
         <text class="title">{{item.title}}</text>
         <text class="sub-title">{{item.original_title}}({{item.year}})</text>
         <text class="artists">
-          <text wx:for="{{item.directors}}">{{item.name}}</text>
+          <text wx:for="{{item.directors}}" wx:key="key">{{item.name}}</text>
         </text>
       </view>
       <view class="rating">
