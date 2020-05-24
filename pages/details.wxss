@@ -1,13 +1,13 @@
 .page-header{
   display: flex;
   justify-content: center;
-  border-bottom: 2rpx solid #ccc;
+  border-bottom: 5rpx solid #ccc;
   margin-bottom: 10rpx;
 }
 .page-header-text{
   padding: 20rpx 40rpx;
-  color: #999;
-  font-size: 40rpx;
+  color: rgba(31, 18, 218, 0.981);
+  font-size: 44rpx;
   text-align: center;
 }
 .page-body{
