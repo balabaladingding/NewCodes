@@ -1,2 +1,17 @@
-<!--pages/six/3.wxml-->
-<text>pages/six/3.wxml</text>
+<scroll-view scroll-y="true" class="all">
+  <view class="meta">
+    <image class="poster" src="/images/shanheguren.jpg" background-size="cover"></image>
+    <text class="title">山河故人</text>
+    <text class="info">评分：</text>
+    <text class="info">导演：</text>
+    <text class="info">主演：等</text>
+  </view>
+  <view class="summmary">
+    <text class="label">摘要：</text>
+    <text class="content"></text>
+  </view>
+  <view class="summmary">
+    <text class="label">精彩影评：</text>
+    <text class="content"></text>
+  </view>
+</scroll-view>
