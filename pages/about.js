@@ -1,34 +1,20 @@
-// pages/my.js
+// pages/about.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    name:'电影评分小图鉴1.0',
-    src:'/images/weixin.jpg'
-  },
-  
-  getMyInfo:function(e){
-    // console.log(e.detail.userInfo)
-    let info = e.detail.userInfo;
-    this.setData({
-      name:info.nickName,
-      src:info.avatarUrl
-    })
-  },
 
-  about:function(e){
-    wx.navigateTo({
-      url: '/pages/about',
-    })
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    wx.setNavigationBarTitle({
+      title: "关于我们"
+    })
   },
 
   /**

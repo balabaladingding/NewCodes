@@ -1,1 +1,21 @@
-/* pages/my.wxss */
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+.images{
+  height: 300rpx;
+  width: 300rpx;
+  border-radius: 50%;
+  margin: 100rpx;
+}
+.page-text{
+  margin: 100rpx;
+  margin-bottom: 160rpx;
+}
+.page-botton{
+  width: 400rpx;
+  margin: 10rpx;
+}

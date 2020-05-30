@@ -9,7 +9,8 @@
     "pages/six/2",
     "pages/six/3",
     "pages/six/4",
-    "pages/six/5"
+    "pages/six/5",
+    "pages/about"
   ],
   "window": {
     "navigationBarBackgroundColor": "#328EEB",

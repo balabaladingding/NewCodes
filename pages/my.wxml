@@ -1,2 +1,6 @@
-<!--pages/my.wxml-->
-<text>pages/my.wxml</text>
+<view class="container">
+  <image src="{{src}}" class="images"></image>
+  <text class="page-text">{{name}}</text>
+  <button open-type="getUserInfo" bindgetuserinfo="getMyInfo" class="page-botton">点击获取头像和昵称</button>
+  <button class="page-botton" bindtap="about">关于我们</button>
+</view>

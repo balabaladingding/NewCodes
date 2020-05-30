@@ -1,0 +1,11 @@
+<view >
+  <view class="container">
+    <image class="jpg" src="/images/beigongda.jpg"></image>
+  </view>
+  <view class="statement">
+    <text>电影评分小图鉴1.0</text>
+  </view>
+  <view class="contact">
+    <text>制作者：黄瑞雪 黄晁杰</text>
+  </view>
+</view>

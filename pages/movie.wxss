@@ -19,7 +19,7 @@
 }
 .content{
   color: #666;
-  font-size: 20rpx;
+  font-size: 30rpx;
   padding: 10rpx;
 }
 .title{
@@ -27,7 +27,7 @@
   color: #444;
 }
 .info{
-  font-size: 18rpx;
+  font-size: 27rpx;
   color: #888;
   margin-top: 20rpx;
   width: 80%;

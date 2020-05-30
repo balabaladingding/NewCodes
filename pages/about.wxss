@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.jpg {
+  height: 400px;
+  width: 400px;
+}
+
+.statement {
+  display: flex;
+  justify-content: center;
+  height: 30%;
+  color: green;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+  font-size: 12pt;
+}
+.contact {
+  height: 40%;
+  color: green;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 10pt;
+}
+.contact text{
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 20px;
+}
