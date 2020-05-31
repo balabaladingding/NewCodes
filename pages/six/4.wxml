@@ -1,17 +1,22 @@
 <scroll-view scroll-y="true" class="all">
   <view class="meta">
     <image class="poster" src="/images/wozaigugongxiuwenwu.jpg" background-size="cover"></image>
-    <text class="title">我在故宫修文物</text>
-    <text class="info">评分：</text>
-    <text class="info">导演：</text>
-    <text class="info">主演：等</text>
+    <text class="title">我在故宫修文物（2016）</text>
+    <text class="info">评分：9.4</text>
+    <text class="info">导演：萧寒 </text>
+    <text class="info">主演：王津，亓昊楠，屈峰，王五胜，王有亮，杨泽华，纪东歌，陈杨等</text>
   </view>
   <view class="summmary">
     <text class="label">摘要：</text>
-    <text class="content"></text>
+    <text class="content">影片纪录了故宫书画、青铜器、宫廷钟表、木器、陶瓷、漆器等领域的稀世珍宝的修复过程，和殿堂级的文物医生以及他们的文物复活术。电影版以时间为主轴，用崭新的故事线以及大量剧集版中未出现的画面交代了修复师们的日常工作及生活状态。</text>
   </view>
   <view class="summmary">
     <text class="label">精彩影评：</text>
-    <text class="content"></text>
+    <text class="content">1.同样是行内翘楚，日本职人追求的是一板一眼里的仪式感，再琐末的工作也要做得肃穆。中国师傅追求的是举重若轻，越是重要的工作越是要带着点玩儿的趣味，其实骨子里也是一板一眼。看完好想去给故宫当扫地工啊！
+
+2.“之后外面什么声音都听不见了，静得令人不敢说话。”这么好的东西能交到一群有心的匠人手里，红墙暗阁内满是那些有温度的日常。
+
+3.可能只有我这种烦人精会在意的事：1、旁白不会发任何ang以外的后鼻音，为什么要去做旁白，为什么竟然能做旁白，好烦！2、年轻一代的工作人员基本上清一色北京口音，看来故宫是真的难进……
+</text>
   </view>
 </scroll-view>

@@ -1,17 +1,24 @@
 <scroll-view scroll-y="true" class="all">
   <view class="meta">
     <image class="poster" src="/images/shanheguren.jpg" background-size="cover"></image>
-    <text class="title">山河故人</text>
-    <text class="info">评分：</text>
-    <text class="info">导演：</text>
-    <text class="info">主演：等</text>
+    <text class="title">山河故人（2015）</text>
+    <text class="info">评分：7.9</text>
+    <text class="info">导演：贾樟柯 </text>
+    <text class="info">主演：张译，赵涛，张艾嘉，董子健，刘陆，梁景东等</text>
   </view>
   <view class="summmary">
     <text class="label">摘要：</text>
-    <text class="content"></text>
+    <text class="content">1999年，汾阳姑娘沈涛陷入了与小镇青年张晋生和梁建军的三角恋中，她最终选择了追逐金钱的张晋生，梁建军则只能郁郁离开。
+2014年，沈涛与张晋生离婚，张晋生带着儿子Dollar再婚并去上海生活，而梁建军因为身患绝症回到家乡，他在无奈之下找到沈涛借钱治病。由于沈涛的父亲去世，Dollar回到了汾阳参加葬礼，沈涛深感儿子的变化，知道他不可能留在自己身边，只是把家门的钥匙给了他。
+2025年的澳洲，Dollar长大，在中文学校学习，认识了张艾嘉饰演的老师，老师与前夫离婚后，也处在一种不安定的状态中，恰好与进入叛逆期想要追求自由的Dollar心灵相通，两人发生了一场忘年恋，Dollar虽然一直挂着母亲给他的钥匙，但他已经想不起母亲的名字，只记得她叫涛，波浪的意思。</text>
   </view>
   <view class="summmary">
     <text class="label">精彩影评：</text>
-    <text class="content"></text>
+    <text class="content">1.梁子说他的告别在迪厅已经说过了，父亲无言甚至连告别都没有，所以涛执意陪着儿子颠簸半个山河，只为告别时别那么匆忙。终究在儿子的记忆里她成了故人，隔空呼唤恍如前世。父子的沟通不畅如同时光的讽刺，绵长的岁月跨度总是让人不胜唏嘘。次第登场的人物在交错光影里道声珍重，牵挂是爱最痛苦的部分。
+
+2.贾樟柯就是中国社会的剪报手，每隔两、三年就跑去欧洲读一下自己拼贴的新字报。曾经植根于个体经验的现实主义，已经蜕变成今天读着报纸看着新闻居高临下对现实的想象。一种泛滥乡愁和情怀，搪塞了在社会观察上的平庸和无力，只剩下影像语言上一而再三小花样在苟延残喘挣扎。
+
+3.两次放映中断重来都阻挡不了歪果仁流泪跪拜，问了几个外国朋友皆称神作，国内同行却疑其谄媚逢迎。三种画幅三个年代，意象符号直白复现，形式足够让影评人亢奋几天；弱化社会批判，理顺叙事逻辑，对故人故土的怅惋，内容也轻松勾起共鸣。差40岁的婆孙床戏闪瞎国内记者，大概赵涛也是出口欧洲专供吧。
+</text>
   </view>
 </scroll-view>

@@ -1,5 +1,5 @@
 .all{
-  height: 2300rpx;
+  height: 1750rpx;
 }
 .meta{
   display: flex;
