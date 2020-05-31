@@ -1,4 +1,4 @@
-<scroll-view scroll-y="true">
+<scroll-view scroll-y="true" class="all">
   <view class="meta">
     <image class="poster" src="{{movie.images.large}}" background-size="cover"></image>
     <text class="title">{{movie.title}}({{movie.year}})</text>
